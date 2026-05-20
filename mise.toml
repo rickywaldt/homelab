@@ -3,8 +3,9 @@ flux2 = "latest"
 helm = "latest"
 k9s = "latest"
 kubectl = "latest"
+kubelogin = "latest"
 talosctl = "latest"
 
 [env]
 CLUSTER_NAME = "cerebro"
-KUBECONFIG = "{{env.HOME}}/workspaces/homelab/kubeconfig"
+KUBECONFIG = "./kubeconfig"
