@@ -4,3 +4,7 @@ helm = "latest"
 k9s = "latest"
 kubectl = "latest"
 talosctl = "latest"
+
+[env]
+CLUSTER_NAME = "cerebro"
+KUBECONFIG = "{{env.HOME}}/.kube/cerebro/config"
