@@ -1,0 +1,3 @@
+[env]
+CLUSTER_NAME = "cerebro"
+KUBECONFIG = "{{env.HOME}}/.kube/cerebro/config"
