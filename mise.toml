@@ -7,4 +7,4 @@ talosctl = "latest"
 
 [env]
 CLUSTER_NAME = "cerebro"
-KUBECONFIG = "{{env.HOME}}/.kube/cerebro/config"
+KUBECONFIG = "{{env.HOME}}/workspaces/homelab/kubeconfig"
