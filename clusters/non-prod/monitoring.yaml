@@ -1,7 +1,7 @@
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
-  name: infrastructure
+  name: monitoring-controllers
   namespace: flux-system
 spec:
   interval: 10m0s
@@ -10,5 +10,9 @@ spec:
   sourceRef:
     kind: GitRepository
     name: flux-system
-  path: ./infrastructure/non-prod
+  path: ./monitoring/controllers/non-prod
   prune: true
+  decryption:
+    provider: sops
+    secretRef:
+      name: sops-age
