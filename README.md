@@ -54,7 +54,7 @@ Infra:
         <td>Provides persistent distributed storage tailored for Kubernetes workloads.</td>
     </tr>
     <tr>
-        <td><img width="32" src="https://external-secrets.io/latest/pictures/eso-logo-large.png"></td>
+        <td><img width="32" src="https://raw.githubusercontent.com/external-secrets/external-secrets/refs/heads/main/assets/eso-logo-large.png"></td>
         <td><a href="https://external-secrets.io">External Secrets Operator</a></td>
         <td>Syncs secrets from external providers into Kubernetes secrets automatically.</td>
     </tr>
