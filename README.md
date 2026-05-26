@@ -32,11 +32,11 @@ Proxmox 3-node cluster. HA Kubernetes cluster with 3 control planes and 3 worker
 | Icon | Name | Description |
 |------|------|-------------|
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/flux-cd.png" width="30" alt="Flux CD logo"> | [Flux CD](https://fluxcd.io/) | GitOps operator that continuously syncs cluster state from Git repositories. |
-| <img src="https://getsops.io/img/logo.png" width="30" alt="SOPS logo"> | [SOPS](https://getsops.io/) | Encrypts Kubernetes secrets and configuration files while keeping them safely stored in Git. |
+| <img src="https://raw.githubusercontent.com/getsops/sops/main/docs/static/img/logo.png" width="30" alt="SOPS logo"> | [SOPS](https://getsops.io/) | Encrypts Kubernetes secrets and configuration files while keeping them safely stored in Git. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/helm.png" width="30" alt="Helm logo"> | [Helm](https://helm.sh/) | Package manager for deploying Kubernetes applications using charts. |
 | <img src="https://dashboard.snapcraft.io/site_media/appmedia/2020/06/kustomize.png" width="30" alt="Kustomize logo"> | [Kustomize](https://kustomize.io/) | Tool for customizing Kubernetes manifests without templating. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/renovate.png" width="30" alt="Renovate logo"> | [Renovate](https://www.mend.io/renovate/) | Automates dependency and container image updates through pull requests. |
-| <img src="https://kyverno.io/images/kyverno-logo.png" width="30" alt="Kyverno logo"> | [Kyverno](https://kyverno.io/) | Kubernetes-native policy engine used to validate, mutate, and secure cluster resources. |
+| <img src="https://raw.githubusercontent.com/kyverno/website/main/assets/images/kyverno-logo.png" width="30" alt="Kyverno logo"> | [Kyverno](https://kyverno.io/) | Kubernetes-native policy engine used to validate, mutate, and secure cluster resources. |
 
 ## Observability & Security
 
