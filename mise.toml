@@ -7,6 +7,7 @@ kubectl = "latest"
 kubectx = "latest"
 kubelogin = "latest"
 kubens = "latest"
+omnictl = "latest"
 sops = "latest"
 talosctl = "latest"
 
