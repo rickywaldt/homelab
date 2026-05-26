@@ -3,4 +3,4 @@ kind: Kustomization
 
 resources:
   - longhorn
-  - local-path-provisioner
+  #- local-path-provisioner
