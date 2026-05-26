@@ -2,3 +2,4 @@ kubeconfig
 talosconfig
 credentials.json
 age.agekey
+.markdownlint.json
