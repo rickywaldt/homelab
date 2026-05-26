@@ -20,11 +20,11 @@ Proxmox 3-node cluster. HA Kubernetes cluster with 3 control planes and 3 worker
 | Icon | Name | Description |
 |------|------|-------------|
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proxmox.png" width="30" alt="Proxmox logo"> | [Proxmox](https://www.proxmox.com/) | Virtualization platform used to host and manage the underlying infrastructure. |
-| <img src="https://avatars.githubusercontent.com/u/138754790?s=200&v=4" width="30" alt="Talos Omni logo"> | [Talos Omni](https://www.siderolabs.com/platform/saas-for-kubernetes/) | Centralized platform for provisioning and managing Talos Kubernetes clusters. |
+| <img src="https://www.siderolabs.com/favicon/favicon-32x32.png" width="30" alt="Talos Omni logo"> | [Talos Omni](https://www.siderolabs.com/omni/) | Centralized platform for provisioning and managing Talos Kubernetes clusters. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kubernetes.png" width="30" alt="Kubernetes logo"> | [Kubernetes](https://kubernetes.io/) | Container orchestration platform powering workloads across the cluster. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/longhorn.png" width="30" alt="Longhorn logo"> | [Longhorn](https://longhorn.io/) | Distributed storage solution providing persistent volumes for workloads. |
-| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/traefik.png" width="30" alt="Traefik logo"> | [Traefik](https://traefik.io/) | Ingress controller and reverse proxy for routing cluster traffic. |
-| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/cnpg.png" width="30" alt="CloudNativePG logo"> | [CloudNativePG](https://cloudnative-pg.io/) | Kubernetes operator for deploying and managing PostgreSQL clusters. |
+| <img src="https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png" width="30" alt="Traefik logo"> | [Traefik](https://traefik.io/) | Ingress controller and reverse proxy for routing cluster traffic. |
+| <img src="https://avatars.githubusercontent.com/u/100373852?s=200&v=4" width="30" alt="CloudNativePG logo"> | [CloudNativePG](https://cloudnative-pg.io/) | Kubernetes operator for deploying and managing PostgreSQL clusters. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/velero.png" width="30" alt="Velero logo"> | [Velero](https://velero.io/) | Backup and disaster recovery tool for Kubernetes resources and volumes. |
 
 ## Platform Tooling
@@ -33,7 +33,7 @@ Proxmox 3-node cluster. HA Kubernetes cluster with 3 control planes and 3 worker
 |------|------|-------------|
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/flux-cd.png" width="30" alt="Flux CD logo"> | [Flux CD](https://fluxcd.io/) | GitOps operator that continuously syncs cluster state from Git repositories. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/helm.png" width="30" alt="Helm logo"> | [Helm](https://helm.sh/) | Package manager for deploying Kubernetes applications using charts. |
-| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kustomize.png" width="30" alt="Kustomize logo"> | [Kustomize](https://kustomize.io/) | Tool for customizing Kubernetes manifests without templating. |
+| <img src="https://dashboard.snapcraft.io/site_media/appmedia/2020/06/kustomize.png" width="30" alt="Kustomize logo"> | [Kustomize](https://kustomize.io/) | Tool for customizing Kubernetes manifests without templating. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/renovate.png" width="30" alt="Renovate logo"> | [Renovate](https://www.mend.io/renovate/) | Automates dependency and container image updates through pull requests. |
 
 ## Observability & Security
