@@ -2,7 +2,7 @@
 
 My Kubernetes homelab powered by Talos Linux.
 
-Hardware:
+## Hardware
 
 - HP EliteDesk 800 G2 i5-6500T/4CPU/32GB/250GB SSD
 - HP EliteDesk 800 G2 i5-6500T/4CPU/32GB/256GB SSD
@@ -15,7 +15,7 @@ Proxmox 3-node cluster. HA Kubernetes cluster with 3 control planes and 3 worker
 | Control Plane | 4 GiB  | 4  | 32 GiB  |
 | Worker   | 16 GiB  | 4    | 32 GiB    |
 
-Infra:
+## Infra
 
 <table>
     <tr>
