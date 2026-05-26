@@ -20,7 +20,7 @@ Proxmox 3-node cluster. HA Kubernetes cluster with 3 control planes and 3 worker
 | Icon | Name | Description |
 |------|------|-------------|
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/proxmox.png" width="30" alt="Proxmox logo"> | [Proxmox](https://www.proxmox.com/) | Virtualization platform used to host and manage the underlying infrastructure. |
-| <img src="https://www.siderolabs.com/favicon/favicon-32x32.png" width="30" alt="Talos Omni logo"> | [Talos Omni](https://www.siderolabs.com/omni/) | Centralized platform for provisioning and managing Talos Kubernetes clusters. |
+| <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/talos.png" width="30" alt="Talos Omni logo"> | [Talos Omni](https://www.siderolabs.com/omni/) | Centralized platform for provisioning and managing Talos Kubernetes clusters. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/kubernetes.png" width="30" alt="Kubernetes logo"> | [Kubernetes](https://kubernetes.io/) | Container orchestration platform powering workloads across the cluster. |
 | <img src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/longhorn.png" width="30" alt="Longhorn logo"> | [Longhorn](https://longhorn.io/) | Distributed storage solution providing persistent volumes for workloads. |
 | <img src="https://raw.githubusercontent.com/traefik/traefik/master/docs/content/assets/img/traefik.logo.png" width="30" alt="Traefik logo"> | [Traefik](https://traefik.io/) | Ingress controller and reverse proxy for routing cluster traffic. |
