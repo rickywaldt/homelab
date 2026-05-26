@@ -14,3 +14,4 @@ talosctl = "latest"
 [env]
 CLUSTER_NAME = "cerebro"
 KUBECONFIG = "./kubeconfig"
+TALOSCONFIG = "./talosconfig"
