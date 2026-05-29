@@ -28,19 +28,14 @@ spec:
     service:
       type: LoadBalancer
 
-    ports:
-      web:
-        redirections:
-          entryPoint:
-            to: websecure
-            scheme: https
-
     logs:
       general:
         level: INFO
 
     additionalArguments:
       - "--api.dashboard=true"
+      - "--entrypoints.web.http.redirections.entrypoint.to=websecure"
+      - "--entrypoints.web.http.redirections.entrypoint.scheme=https"
 
     providers:
       kubernetesCRD:
