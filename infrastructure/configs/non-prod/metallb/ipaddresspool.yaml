@@ -1,8 +1,0 @@
-apiVersion: metallb.io/v1
-kind: IPAddressPool
-metadata:
-  name: default-pool
-  namespace: metallb-system
-spec:
-  addresses:
-    - 10.0.110.240-10.0.110.250
