@@ -18,6 +18,9 @@ spec:
   install:
     createNamespace: true
 
+  upgrade:
+    crds: CreateReplace
+
   values:
     speaker:
       tolerateMaster: true
