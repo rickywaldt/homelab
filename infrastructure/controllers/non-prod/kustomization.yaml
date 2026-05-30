@@ -4,5 +4,5 @@ kind: Kustomization
 resources:
   - longhorn
   - traefik
-  #- metallb
+  - metallb
   #- local-path-provisioner
