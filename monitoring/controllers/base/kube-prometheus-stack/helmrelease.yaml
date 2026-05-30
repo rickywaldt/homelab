@@ -37,3 +37,14 @@ spec:
           - /metadata/annotations/prometheus-operator-validated
         target:
           kind: PrometheusRule
+
+  values:
+    grafana:
+      ingress:
+        enabled: true
+        ingressClassName: traefik
+
+        hosts:
+          - grafana.nusanative.com
+
+        tls: []
