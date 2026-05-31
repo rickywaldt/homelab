@@ -47,4 +47,7 @@ spec:
         hosts:
           - grafana.nusanative.com
 
-        tls: []
+        tls:
+          - secretName: grafana-tls-secret
+            hosts:
+              - grafana.nusanative.com
