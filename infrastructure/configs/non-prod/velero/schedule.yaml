@@ -1,0 +1,21 @@
+apiVersion: velero.io/v1
+kind: Schedule
+metadata:
+  name: daily-full
+spec:
+  schedule: "0 2 * * *" # 02:00 every night
+  useOwnerReferencesInBackup: false
+  template:
+    ttl: 168h # 7 days
+    storageLocation: default
+    volumeSnapshotLocations:
+      - default
+    includedNamespaces:
+      - "*"
+    excludedNamespaces:
+      - kube-system
+      - kube-public
+      - kube-node-lease
+    includeClusterResources: true
+    snapshotVolumes: true
+    defaultVolumesToFsBackup: false # use CSI snapshots; set true as fallback
