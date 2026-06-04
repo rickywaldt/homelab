@@ -6,4 +6,5 @@ resources:
   - traefik
   - metallb
   - renovate
+  - velero
   #- local-path-provisioner
