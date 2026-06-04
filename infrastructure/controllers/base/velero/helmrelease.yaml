@@ -24,7 +24,7 @@ spec:
           default: true
           config:
             region: auto # required by Cloudflare R2
-            s3ForcePathStyle: "false"
+            s3ForcePathStyle: "true"
             s3Url: https://<ACCOUNT_ID>.r2.cloudflarestorage.com
 
       volumeSnapshotLocation:
