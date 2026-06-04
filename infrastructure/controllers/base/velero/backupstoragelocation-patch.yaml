@@ -1,0 +1,8 @@
+apiVersion: velero.io/v1
+kind: BackupStorageLocation
+metadata:
+  name: default
+  namespace: velero
+spec:
+  config:
+    tagging: null
