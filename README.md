@@ -1,6 +1,6 @@
 # homelab
 
-My Kubernetes homelab powered by Talos Linux.
+My Kubernetes homelab powered by Talos Omni.
 
 ## Hardware
 
