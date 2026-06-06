@@ -42,11 +42,18 @@ spec:
                 kind: Deployment
                 name: velero
               patch: |
-                - op: add
-                  path: /spec/template/spec/containers/0/env/-
-                  value:
-                    name: HOME
-                    value: /scratch
+                apiVersion: apps/v1
+                kind: Deployment
+                metadata:
+                  name: velero
+                spec:
+                  template:
+                    spec:
+                      containers:
+                        - name: velero
+                          env:
+                            - name: HOME
+                              value: /scratch
 
     initContainers:
       - name: velero-plugin-for-aws
