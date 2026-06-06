@@ -17,5 +17,5 @@ spec:
       - kube-public
       - kube-node-lease
     includeClusterResources: true
-    snapshotVolumes: true
-    defaultVolumesToFsBackup: false # use CSI snapshots; set true as fallback
+    snapshotVolumes: false
+    defaultVolumesToFsBackup: true # use CSI snapshots; set true as fallback
