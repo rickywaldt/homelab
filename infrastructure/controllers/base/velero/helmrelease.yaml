@@ -17,6 +17,7 @@ spec:
       existingSecret: velero-s3-credentials
 
     configuration:
+      defaultVolumesToFsBackup: true
       backupStorageLocation:
         - name: default
           provider: aws
@@ -33,7 +34,7 @@ spec:
           provider: csi
 
       defaultBackupTTL: "168h" # 7 days
-      features: EnableCSI
+      #features: EnableCSI
 
     initContainers:
       - name: velero-plugin-for-aws
