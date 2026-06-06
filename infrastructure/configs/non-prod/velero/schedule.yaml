@@ -20,6 +20,7 @@ spec:
       - metallb-system
       - longhorn-system
       - velero
+      - monitoring
     includeClusterResources: true
     snapshotVolumes: false
     defaultVolumesToFsBackup: true # use CSI snapshots; set true as fallback
