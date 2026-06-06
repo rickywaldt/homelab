@@ -16,6 +16,10 @@ spec:
       - kube-system
       - kube-public
       - kube-node-lease
+      - flux-system
+      - metallb-system
+      - longhorn-system
+      - velero
     includeClusterResources: true
     snapshotVolumes: false
     defaultVolumesToFsBackup: true # use CSI snapshots; set true as fallback
