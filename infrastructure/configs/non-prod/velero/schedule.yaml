@@ -23,4 +23,4 @@ spec:
       - monitoring
     includeClusterResources: true
     snapshotVolumes: false
-    defaultVolumesToFsBackup: true # use CSI snapshots; set true as fallback
+    defaultVolumesToFsBackup: true # file system backup via kopia
