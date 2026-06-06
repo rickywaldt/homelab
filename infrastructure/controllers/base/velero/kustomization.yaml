@@ -8,8 +8,8 @@ resources:
   - helmrelease.yaml
   - velero-s3-credentials.yaml
 
-patches:
-  - path: backupstoragelocation-patch.yaml
-    target:
-      kind: BackupStorageLocation
-      name: default
+#patches:
+# - path: backupstoragelocation-patch.yaml
+#  target:
+#   kind: BackupStorageLocation
+#  name: default
