@@ -35,6 +35,9 @@ spec:
 
       defaultBackupTTL: "168h" # 7 days
       #features: EnableCSI
+    extraEnvVars:
+      - name: HOME
+        value: /tmp
 
     initContainers:
       - name: velero-plugin-for-aws
