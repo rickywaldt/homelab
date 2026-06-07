@@ -4,6 +4,7 @@ metadata:
   name: daily-full
 spec:
   schedule: "0 2 * * *" # 02:00 every night
+  paused: true # Temporary pause backups while searching for R2 alternative
   useOwnerReferencesInBackup: false
   template:
     ttl: 168h # 7 days
