@@ -1,4 +1,4 @@
-# homelab
+# Homelab
 
 My Kubernetes homelab powered by Talos Omni.
 
