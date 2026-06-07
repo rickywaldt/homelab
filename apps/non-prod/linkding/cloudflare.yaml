@@ -58,6 +58,5 @@ data:
     ingress:
     - hostname: linkding.nusanative.com
       service: http://linkding:9090
-    - hostname: hello.example.com
-      service: hello_world
+
     - service: http_status:404
