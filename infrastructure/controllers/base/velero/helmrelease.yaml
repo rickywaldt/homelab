@@ -58,7 +58,7 @@ spec:
       #features: EnableCSI
     initContainers:
       - name: velero-plugin-for-aws
-        image: ttl.sh/velero-plugin-for-aws-patched:24h
+        image: ghcr.io/rickywaldt/velero-plugin-for-aws-patched:patched
         imagePullPolicy: Always
         volumeMounts:
           - mountPath: /target
