@@ -19,4 +19,4 @@ spec:
 
   values:
     defaultSettings:
-      defaultReplicaCount: 1
+      defaultReplicaCount: 3
