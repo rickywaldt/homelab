@@ -7,4 +7,5 @@ resources:
   - metallb
   - renovate
   - velero
+  #- external-secrets
   #- local-path-provisioner
