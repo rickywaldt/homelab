@@ -1,0 +1,24 @@
+apiVersion: helm.toolkit.fluxcd.io/v2
+kind: HelmRelease
+metadata:
+  name: external-secrets
+spec:
+  interval: 30m
+  driftDetection:
+    mode: enabled
+  install:
+    strategy:
+      name: RetryOnFailure
+      retryInterval: 2m
+  upgrade:
+    strategy:
+      name: RetryOnFailure
+      retryInterval: 2m
+  chart:
+    spec:
+      chart: external-secrets
+      version: 1.3.1
+      sourceRef:
+        kind: HelmRepository
+        name: external-secrets
+      interval: 12h
