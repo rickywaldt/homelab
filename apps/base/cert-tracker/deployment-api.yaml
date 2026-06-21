@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cert-tracker-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cert-tracker-api
+  template:
+    metadata:
+      labels:
+        app: cert-tracker-api
+    spec:
+      containers:
+        - name: api
+          image: ghcr.io/rickywaldt/cert-tracker-api:latest
+          ports:
+            - containerPort: 3000
+          env:
+            - name: PORT
+              value: "3000"
+          envFrom:
+            - secretRef:
+                name: cert-tracker-env
