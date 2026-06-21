@@ -4,7 +4,5 @@ namespace: cert-tracker
 
 resources:
   - ../../base/cert-tracker
-  - cloudflare.yaml
-  - cf-secret.yaml
   - cert-tracker-env-secret.yaml
   - cert-tracker-db-credentials-secret.yaml

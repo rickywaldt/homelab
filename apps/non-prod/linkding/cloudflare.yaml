@@ -58,5 +58,6 @@ data:
     ingress:
     - hostname: linkding.nusanative.com
       service: http://linkding:9090
-
+    - hostname: cert-tracker.nusanative.com
+      service: http://cert-tracker-frontend.cert-tracker.svc.cluster.local:80
     - service: http_status:404
