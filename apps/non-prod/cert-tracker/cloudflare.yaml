@@ -56,8 +56,8 @@ data:
     metrics: 0.0.0.0:2000
     no-autoupdate: true
     ingress:
-      - hostname: linkding.nusanative.com
-        service: http://linkding.linkding.svc.cluster.local:9090
-      - hostname: cert-tracker.nusanative.com
-        service: http://cert-tracker-frontend.cert-tracker.svc.cluster.local:80
-      - service: http_status:404
+    - hostname: linkding.nusanative.com
+      service: http://linkding.linkding.svc.cluster.local:9090
+    - hostname: cert-tracker.nusanative.com
+      service: http://cert-tracker-frontend.cert-tracker.svc.cluster.local:80
+    - service: http_status:404
