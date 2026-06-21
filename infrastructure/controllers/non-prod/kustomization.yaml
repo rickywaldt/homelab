@@ -7,5 +7,6 @@ resources:
   - metallb
   - renovate
   - velero
+  - cnpg
   #- external-secrets
   #- local-path-provisioner
