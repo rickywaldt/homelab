@@ -1,0 +1,23 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: cert-tracker-scraper
+spec:
+  schedule: "0 2 * * 6"
+  concurrencyPolicy: Forbid
+  successfulJobsHistoryLimit: 3
+  failedJobsHistoryLimit: 3
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          restartPolicy: OnFailure
+          containers:
+            - name: scraper
+              image: ghcr.io/rickywaldt/cert-tracker-scraper:latest
+              env:
+                - name: RUN_ONCE
+                  value: "true"
+              envFrom:
+                - secretRef:
+                    name: cert-tracker-env
