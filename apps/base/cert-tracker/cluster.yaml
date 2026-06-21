@@ -1,0 +1,15 @@
+apiVersion: postgresql.cnpg.io/v1
+kind: Cluster
+metadata:
+  name: cert-tracker-db
+spec:
+  instances: 1
+  storage:
+    size: 2Gi
+    storageClass: longhorn
+  bootstrap:
+    initdb:
+      database: certtracker
+      owner: certtracker
+      secret:
+        name: cert-tracker-db-credentials
