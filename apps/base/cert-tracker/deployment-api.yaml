@@ -15,6 +15,7 @@ spec:
       containers:
         - name: api
           image: ghcr.io/rickywaldt/cert-tracker-api:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 3000
           env:

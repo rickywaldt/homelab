@@ -15,5 +15,6 @@ spec:
       containers:
         - name: frontend
           image: ghcr.io/rickywaldt/cert-tracker-frontend:latest
+          imagePullPolicy: Always
           ports:
             - containerPort: 80
